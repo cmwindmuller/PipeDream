@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 453124}
+  - 114: {fileID: 11418106}
+  m_Layer: 0
+  m_Name: AudioHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453124
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11418106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5402b1156b6e67346a5d3618f286f1e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  song_logo:
+    clip: {fileID: 8300000, guid: 6b154dcb8d773524a8edadee1b3cd38a, type: 3}
+    volume: 1
+    loop: 0
+  song_game:
+    clip: {fileID: 8300000, guid: ac327d3b141ba4a4a94d242abe3cf807, type: 3}
+    volume: .75
+    loop: 1
+  song_menu:
+    clip: {fileID: 8300000, guid: 703237dac16b03145814f077a64423a3, type: 3}
+    volume: 1
+    loop: 1
+  title:
+    clip: {fileID: 8300000, guid: 404411e8ae93ea84b9653d2aa42047ae, type: 3}
+    volume: 1
+  start:
+    clip: {fileID: 8300000, guid: 02d2caa4795aae544a2ddd444cff2596, type: 3}
+    volume: 1
+  death:
+    clip: {fileID: 8300000, guid: 0ce075dc9b75c164ebec8b11a76237e0, type: 3}
+    volume: 1
+  hiScore:
+    clip: {fileID: 8300000, guid: 1ec1d50add8c89d4d9ee3a1524e62c6b, type: 3}
+    volume: 1
+  jump:
+    clip: {fileID: 8300000, guid: db57f85b79e40d942ba68b4a94931a66, type: 3}
+    volume: .5
+  turn:
+    clip: {fileID: 8300000, guid: f3ea7faaaea729544ab2592353533dc3, type: 3}
+    volume: 0
+  hit:
+    clip: {fileID: 8300000, guid: 3fee6ec89e4af434894e020906f3bb15, type: 3}
+    volume: 1
+  shark:
+    clip: {fileID: 8300000, guid: f85cfd48538001e4f92339e60ccf5f72, type: 3}
+    volume: 1
+  emerge:
+    clip: {fileID: 8300000, guid: 670b0f8681b16e84db1e2e95ed121b66, type: 3}
+    volume: 1
+  ring:
+    clip: {fileID: 8300000, guid: 9d4baa145c7303e48b7df93204cc3fa8, type: 3}
+    volume: 1
+  seahorse:
+    clip: {fileID: 8300000, guid: 8ece4dee0d7cc7c4a9dbbe6123d2c193, type: 3}
+    volume: 1
+  seagull:
+    clip: {fileID: 8300000, guid: 0fa9a6f6316b00c4980fb55963b629da, type: 3}
+    volume: 1
+  poop:
+    clip: {fileID: 8300000, guid: 516f85a9b559b3a4ebbc65fe9ea7bcf9, type: 3}
+    volume: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 103976}
+  m_IsPrefabParent: 1
